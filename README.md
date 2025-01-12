@@ -1,4 +1,6 @@
-Link to upload files and then COMMIT
+if new: click on link to upload files 
+if existing: + before CODE to upload
+and then COMMIT
 
 Toolkit module - my own custom created functions and classes
 Dunder module - several examples, esp those for operators

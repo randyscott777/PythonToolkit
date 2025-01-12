@@ -1,5 +1,6 @@
 Link to upload files and then COMMIT
 
-Toolkit module
-Dunder module
-Snippets module
+Toolkit module - my own custom created functions and classes
+Dunder module - several examples, esp those for operators
+Snippets module - using only builtin code not using any library modules
+Libraries module - has example(s) for the most popular imports

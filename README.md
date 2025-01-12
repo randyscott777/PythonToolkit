@@ -1,5 +1,5 @@
 if new: click on link to upload files 
-if existing: + before CODE to upload
+if existing: click on Add File button (just before Code) to upload
 and then COMMIT
 
 Toolkit module - my own custom created functions and classes

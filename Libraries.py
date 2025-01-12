@@ -122,13 +122,15 @@ plt.title('Simple Line Plot')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.show()
-'''
+
 print('\n---- from requests library ------')
 import requests
-response = requests.get('https://api.github.com')
+response = requests.get('https://raw.githubusercontent.com/randyscott777/PythonToolkit/main/README.md')
 if response.status_code == 200:
-    print(response.json())
-''' 
+    print(response.text)
+else:
+    print('Error, not found')    
+
 print('\n---- from flask library ------')
 from flask import Flask
 app = Flask(__name__)
